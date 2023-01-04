@@ -21,7 +21,7 @@
             },
             {
                 "type": "origins:execute_command",
-                "command": "effect give @e[distance=0..5] instant_damage"
+                "command": "effect give @e[distance=1..8] instant_damage 1 1"
             }
         ]
     },
