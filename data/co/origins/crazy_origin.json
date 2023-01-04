@@ -1,0 +1,16 @@
+{
+    "name": "Crazy",
+    "description": "You are extremly mobile but a bit crazy",
+    "powers": [
+        "co:bounce",
+        "co:crazyfast",
+        "co:neverhungry",
+        "co:nolifting",
+        "co:nodrugs"
+    ],
+    "icon": {
+        "item": "minecraft:sugar"
+    },
+    "order": 5,
+    "impact": 3
+}

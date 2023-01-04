@@ -1,0 +1,11 @@
+{
+    "name": "Crazy fast",
+    "description": "You are naturally fast",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.05,
+        "name": "Increased speed"
+    }
+}

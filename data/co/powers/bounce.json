@@ -1,0 +1,34 @@
+{
+    "name": "Bounce",
+    "description": "You launch youself in the air and explode",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:add_velocity",
+                "y": 1,
+                "z": 1,
+                "space": "local"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "particle explosion ~ ~ ~ 1 1 1 0 50 force"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound entity.generic.explode master @a ~ ~ ~"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=0..5] instant_damage"
+            }
+        ]
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 2
+    },
+    "key": "primary"
+}

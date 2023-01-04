@@ -1,0 +1,19 @@
+{
+    "name": "Never hungry",
+    "description": "You cannot go under 3 food",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:food_level",
+            "comparison": "<=",
+            "compare_to": 6
+        },
+        "if_action": {
+            "type": "origins:feed",
+            "food": 1,
+            "saturation": 0
+        }
+    }
+}

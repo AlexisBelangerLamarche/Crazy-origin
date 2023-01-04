@@ -1,0 +1,17 @@
+{
+    "name": "No arm muscle",
+    "description": "Arm day is leg day for you. Because of that, you do almost no damage",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:weakness",
+            "duration": 40,
+            "amplifier": 0,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

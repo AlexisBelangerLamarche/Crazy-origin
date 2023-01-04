@@ -1,0 +1,17 @@
+{
+    "name": "Drug immunity",
+    "description": "You are immune to positive potion effects",
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:regeneration",
+        "minecraft:fire_resistance",
+        "minecraft:speed",
+        "minecraft:haste",
+        "minecraft:health_boost",
+        "minecraft:instant_health",
+        "minecraft:invisibility",
+        "minecraft:jump_boost",
+        "minecraft:resistance",
+        "minecraft:strength"
+    ]
+}
