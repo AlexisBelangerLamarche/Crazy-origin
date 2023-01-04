@@ -1,6 +1,6 @@
 {
     "name": "Bounce",
-    "description": "You launch youself in the air and explode",
+    "description": "You launch yourself in the air and explode",
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:and",
